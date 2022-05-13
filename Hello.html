@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Тег для назвитут! можна задати кольор певного елементу через стиль і назву елементу! Можна створити окремий файл Css і там прописати всі необхідні властивості( стилі) для всіх частин тексту</title>
+    
+    <style>  h6 {  color: brown;}
+        @media(min-width: 600px) {
+            body {
+                background-color: lightblue;
+            }
+        }
+
+        @media(max-width: 599px) {
+            body {
+                background-color: lightgray;
+            }
+        }
+        </style>
+</head>
+<body style="color: blue;">
+    <h1 style="color: red; text-align: center;"> style-форматування стиля тексту Х1 тег для заголовка а боді для вмісту сторінки! </h1>
+    <h6> цифра біля х показує розмір заголовка </h6>
+    <h1> може бути декілька заголовків рівня від 1 до 6 н </h1>
+    <ol>
+        це теги для впорядкованого списку An ordered list(OL)
+        <li> перший пункт </li>
+        <li> другий пункт</li>
+    </ol>
+    Unordered list (ul)невпорядкований список,   а (li) для пунктів списку
+    <ul>
+        <li> перший пункт </li>
+        <li> другий пункт</li>
+
+    </ul>
+    для додавання картинки додається img alt назва, width= ширина
+    <img src="123.gif" alt="Mykhailo" width=150>
+
+    Для додавання посилання а,  href= і адресу куди послати а після>тут можна дописати текст <
+    <a href="https://www.facebook.com/migoncharenko"><h1>Пан михайло</h1></a>
+
+    Table- таблиця
+    thead- верхня строка
+    tr-назва для кожної стрічки
+    th- назва для колонки
+
+    <style>
+        table {
+            border: 1px dotted black;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid red;
+            padding: 5px;
+        }
+
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+            #container > div {
+                background-color: lightcyan;
+                font-size: 20px;
+                margin: auto;
+                padding: 20px;
+                width: 200px;
+            }
+    </style>
+    <table>
+        <thead>
+            <tr>
+                <th><h1>Hi</h1></th>
+                <th>Hello</th>
+                <th>bye</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hello</td>
+                <td>Bye</td>
+                <td>hi </td>
+            </tr>
+        </tbody>
+    </table>
+    Form- форма з можливістю введення
+    <form>
+        <input type="text" placeholder="введи ім'я'" name="name">
+        <input name="password" type="password" placeholder="довіра)'">
+        <input type="submit">
+    </form>
+    <form>
+        <input name="colour" type="radio" value="red">red
+    </form>
+
+    <body>
+        <h1 style="text-align:center, start">Bootstrap бібліотека сss</h1>
+    </body>
+    <div id="container">
+        <div> 1.Text example Flexbox</div>
+        <div> 2.Text example Flexbox</div>
+        <div> 3.Text example Flexbox</div>
+        <div> 4.Text example Flexbox</div>
+        </div>
+        <body>
+            <h1 style="text-align:center, start">Bootstrap бібліотека сss</h1>
+        </body>
+        </bodystyle="color: blue;>
+</html>
